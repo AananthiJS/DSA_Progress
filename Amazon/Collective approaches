@@ -1,0 +1,97 @@
+**📌 Graph Problems (BFS, DFS, Dijkstra, Union-Find)**
+
+200.  Number of Islands → Graph (DFS, BFS), Union-Find
+201.  Rotting Oranges → Graph (BFS)
+202.  Course Schedule → Graph (Topological Sorting, BFS, DFS)
+203.  Course Schedule II → Graph (Topological Sorting, BFS, DFS)
+204.  Keys and Rooms → Graph (DFS, BFS)
+205.  Shortest Path in a Grid w/ Obstacles → Graph (BFS), Shortest Path
+206.  Capacity to Ship Packages Within D Days → Binary Search, Greedy
+207.  Number of Provinces → Graph (DFS, BFS, Union-Find)
+208.  Cheapest Flights Within K Stops → Graph (Dijkstra’s Algorithm, BFS)
+209.  Search Suggestions System → Trie, Binary Search
+210.  Max Area of Island → Graph (DFS, BFS)
+211.  Minimum Knight Moves → Graph (BFS), Shortest Path
+
+**📌 Sliding Window Problems**
+
+3.  Longest Substring Without Repeating Characters → Sliding Window, HashMap
+4.  Max Consecutive Ones III → Sliding Window, Two Pointers
+5.  Find All Anagrams in a String → Sliding Window, HashMap
+6.  Maximum Number of Vowels in a Substring → Sliding Window
+7.  Minimum Window Substring → Sliding Window, HashMap
+8.  Frequency of the Most Frequent Element → Sorting, Sliding Window
+
+**📌 Two Pointers Problems**
+
+15. 3Sum → Two Pointers, Sorting
+16. Trapping Rain Water → Two Pointers, Dynamic Programming
+17. Container With Most Water → Two Pointers, Greedy
+18. Squares of a Sorted Array → Two Pointers
+19. Valid Palindrome II → Two Pointers, Greedy
+20. Valid Palindrome → Two Pointers, String Manipulation
+21. Reorder List → Linked List, Two Pointers
+22. Remove Nth Node From End of List → Linked List, Two Pointers
+23. Sort Colors → Two Pointers, Dutch National Flag Algorithm
+24. Move Zeroes → Two Pointers, In-place Modification
+
+**📌 Stack-Based Problems**
+
+150.  Evaluate Reverse Polish Notation → Stack, Simulation
+151.  Remove All Adjacent Duplicates → Stack, String Manipulation
+152.  Min Stack → Stack, Design Problem
+153.  Daily Temperatures → Monotonic Stack
+154.  Number of Visible People in a Queue → Stack, Monotonic Stack
+155.  Valid Parenthesis String → Stack, Greedy
+
+**📌 Tree & Binary Search Tree (BST) Problems**
+
+101.  Symmetric Tree → Tree, BFS, DFS
+102.  Lowest Common Ancestor of Binary Tree → Tree, DFS, Recursion
+103.  Diameter of Binary Tree → Tree, DFS
+104.  Validate Binary Search Tree → Tree, DFS, In-order Traversal
+105.  Kth Smallest Element in a BST → Tree, DFS, In-order Traversal
+106.  Construct Binary Tree from Preorder & Inorder Traversal → Tree, Recursion, DFS
+107.  Binary Tree Maximum Path Sum → Tree, DFS, Recursion
+
+**📌 Dynamic Programming (DP) Problems**
+
+53. Maximum Subarray → Kadane’s Algorithm, Dynamic Programming (DP)
+54. House Robber → Dynamic Programming (DP), Memoization
+55. Longest Palindromic Subsequence → Dynamic Programming (DP)
+56. Palindromic Substrings → Dynamic Programming (DP), Expand Around Center
+57. Maximum Product Subarray → Dynamic Programming (DP), Greedy
+58. Unique Paths → Dynamic Programming (DP), Combinatorics
+59. Coin Change → Dynamic Programming (DP), Greedy
+60. Longest Increasing Subsequence → Dynamic Programming (DP), Binary Search
+
+**📌 HashMap & HashSet Problems**
+
+1.  Two Sum → HashMap (Dictionary), One-pass Hashing
+2.  Group Anagrams → HashMap, Sorting
+3.  Longest Consecutive Sequence → HashSet, Sorting, Union-Find
+4.  Top K Frequent Words → HashMap, Heap (Priority Queue), Sorting
+
+**📌 Greedy Problems**
+
+134.  Gas Station → Greedy, Math
+135.  Integer to Roman → Greedy, HashMap
+136.  Max Chunks To Make Sorted → Greedy, Sorting
+137.  Largest Number → Sorting, Custom Comparator
+
+**📌 Binary Search Problems**
+
+35. Search Insert Position → Binary Search
+36. Find K Closest Elements → Binary Search, Two Pointers
+37. Capacity to Ship Packages Within D Days → Binary Search, Greedy
+38. Kth Smallest Element in a BST → Tree, DFS, In-order Traversal
+
+Graph Problems (BFS, DFS, Dijkstra, Union-Find) → 12
+Sliding Window Problems → 6
+Two Pointers Problems → 10
+Stack-Based Problems → 6
+Tree & Binary Search Tree (BST) Problems → 7
+Dynamic Programming (DP) Problems → 8
+HashMap & HashSet Problems → 4
+Greedy Problems → 4
+Binary Search Problems → 4
