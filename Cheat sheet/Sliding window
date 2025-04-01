@@ -1,0 +1,21 @@
+| Type           | Window Behavior                          | Two Pointers? | Example Use Case                              |
+|---------------|----------------------------------------|--------------|------------------------------------------------|
+| Fixed-Size    | Moves at a constant size               | ✅ Yes, both move together | Max sum of subarray of size K               |
+| Variable-Size | Expands and shrinks based on conditions | ✅ Yes, but they move independently | Find smallest subarray with sum ≥ target |
+
+
+When to Use Sliding Window 🚀
+Use Sliding Window when the problem involves contiguous subarrays or substrings and requires efficient traversal instead of brute force.
+
+📌 Recognizing Sliding Window Problems
+✅ 1. Fixed Window Size → When you're given a fixed k length and need to compute something over a continuous subarray.
+✔ Example: Find the maximum sum of any subarray of size k.
+
+✅ 2. Variable Window Size → When the problem requires finding the smallest/largest subarray that meets a condition (e.g., sum, frequency, uniqueness).
+✔ Example: Find the smallest subarray with a sum ≥ target.
+
+✅ 3. Substring & Pattern Matching → When you need to analyze characters within a substring efficiently.
+✔ Example: Find the longest substring with at most k distinct characters.
+
+✅ 4. Frequency Counting in a Range → When you're checking the frequency of elements in a sliding range.
+✔ Example: Find all anagrams of a pattern in a string.

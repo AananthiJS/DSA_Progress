@@ -1,0 +1,5 @@
+Imagine you're writing a sentence word by word.
+
+Recursion: You keep writing one sentence to the end.
+
+Backtracking: You write a word, explore where it leads, then erase it and try a different word.

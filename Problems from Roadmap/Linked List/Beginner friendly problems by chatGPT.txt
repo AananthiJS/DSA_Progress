@@ -1,0 +1,32 @@
+🧠 Beginner-Friendly but Useful
+Leetcode 876 – Middle of the Linked List
+👉 Find the middle node (use slow & fast pointer!)
+https://leetcode.com/problems/middle-of-the-linked-list/
+
+Leetcode 206 – Reverse Linked List II
+👉 Reverse part of the list between two positions
+https://leetcode.com/problems/reverse-linked-list-ii/
+
+Leetcode 203 – Remove Linked List Elements
+👉 Remove all nodes with a specific value
+https://leetcode.com/problems/remove-linked-list-elements/
+
+Leetcode 237 – Delete Node in a Linked List
+👉 You're only given the node to delete, not the head 😏
+https://leetcode.com/problems/delete-node-in-a-linked-list/
+
+Leetcode 234 – Palindrome Linked List
+👉 Check if the linked list reads the same forward and backward
+https://leetcode.com/problems/palindrome-linked-list/
+
+💪 Level-Up (Still outside NeetCode)
+Leetcode 328 – Odd Even Linked List
+👉 Group all odd-indexed nodes together followed by even ones
+https://leetcode.com/problems/odd-even-linked-list/
+
+Leetcode 1290 – Convert Binary Number in a Linked List to Integer
+👉 Binary digits are stored in the list — convert to int
+https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
+Leetcode 2 – Add Two Numbers (Revisited)
+👉 NeetCode does the classic one, but try variant questions like reversing inputs first!

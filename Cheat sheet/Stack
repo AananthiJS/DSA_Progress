@@ -1,0 +1,4 @@
+Term	                    Meaning
+Monotonic Stack	            Stack that keeps elements in sorted order
+Used for problems	        “Next greater”, “Next smaller”, etc.
+Benefit	                    Avoids unnecessary comparisons → faster

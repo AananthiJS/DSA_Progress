@@ -1,0 +1,33 @@
+When to use two pointers:
+1️⃣ The array is sorted (like in Two Sum II).
+2️⃣ You need to find two elements that satisfy a condition.
+3️⃣ You can solve the problem by shrinking the search space from both ends.
+
+💡 In Two Sum II:
+
+Left pointer starts at index 0, right pointer starts at the end.
+Since the array is sorted, moving the pointers strategically helps find the target sum faster.
+No need for extra space → O(1) space complexity!
+
+Think to yourself:
+✅ Do I need to find two elements?
+✅ Is the input sorted (or can it be sorted)?
+✅ Can I move two pointers to find the answer efficiently?
+
+💡 Example Thought Process:
+
+"What if I had to find a pair of numbers that meet a condition in a list?"
+"What if I had to shrink a window to find the best possible result?"
+"What if the problem was about merging two lists efficiently?"
+
+NOTE: SORTED LIST ==== TWO POINTERS
+
+
+count = []
+
+for s in strs:
+    for a in s:
+        ord(a)
+
+
+FOR MOST OF THE WATER CONTAINING PROBLEMS, MOVE THE LEFT FORWARD IF SMALLER BLOCK IS FOUND, MOVE THE RIGHT INWARD IF SMALLER IS FOUND

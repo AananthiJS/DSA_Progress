@@ -1,0 +1,7 @@
+1. To get values of hashmap:
+
+(hashmap, key = hashmap.get)
+
+2. To assign default value as something (say 0):
+
+Tmap = 1 + Tmap.get(i, 0)
