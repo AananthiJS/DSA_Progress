@@ -1,0 +1,4 @@
+Lower bound = Smallest index such that arr[index] >= target
+
+It means the index of first occurance where the target is smaller. 
+It means the index of first occurance where the found number is bigger.
