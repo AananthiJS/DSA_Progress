@@ -53,3 +53,30 @@ class Solution:
 
             return root
         return dfs(0, len(inorder) - 1)
+    
+# APPROACH 3
+
+class Solution:
+    def buildTree(self, preorder, inorder):
+        # Two pointers
+        self.preIndex, self.inIndex = 0, 0
+
+        def dfs(limit):
+            # Base case
+            if self.preIndex >= len(preorder):
+                return None
+
+            if inorder[self.inIndex] == limit:
+                self.inIndex += 1
+                return None
+
+            # Recursion
+            root = TreeNode(preorder[self.preIndex])
+            self.preIndex += 1
+
+            root.left = dfs(root.val)
+            root.right = dfs(limit)
+
+            return root
+
+        return dfs(float('inf'))

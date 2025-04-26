@@ -1,0 +1,12 @@
+Use two pointers:
+If the problem feels like it’s flowing from one traversal and being shaped by another, that’s your cue to assign one pointer to each.
+
+You use two pointers in trees when:
+
+You’re dealing with two different roles in two different lists — and they need to “meet each other” in the recursive flow.
+
+Example: For 105. Construct a Binary Tree with Inorder and Preorder lists.
+
+preIdx: "Here’s the next root. Let me build it now."
+inIdx: "Are we at the end of the left subtree yet?"
+limit: "Don’t you dare build past me. When you see me in inorder, STOP."
