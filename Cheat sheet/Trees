@@ -10,3 +10,16 @@ Example: For 105. Construct a Binary Tree with Inorder and Preorder lists.
 preIdx: "Here’s the next root. Let me build it now."
 inIdx: "Are we at the end of the left subtree yet?"
 limit: "Don’t you dare build past me. When you see me in inorder, STOP."
+
+For iterative DFS, we usually use stack. But in stack, the way we store values changes. sometimes, we store root, sometime right. How to know what to store for a particular problem? Here's the pattern
+
+Summary of Pattern:
+• Want to delay visiting root? → Push root itself (Inorder)
+• Want to visit root early? → Push right first (Preorder)
+• Want to visit root very late? → Two-step tricks (Postorder)
+
+| Traversal Order | What You Push into Stack       | Why                                         |
+| --------------- | ------------------------------ | ------------------------------------------- |
+| Preorder        | Right child                    | So after root, you process left first       |
+| Inorder         | Root itself while going left   | So you visit root after finishing all lefts |
+| Postorder       | Root after both left and right | Needs two visits (special trick often used) |
